@@ -1,0 +1,28 @@
+1.什么是CSS，CSS是如何工作的
+一种样式语言，可以选择性地应用于HTML文档中的元素。
+浏览器将html处理后，按照HTML的标签形成了节点，css就对出现在css文件中的节点（css中称其为选择器
+css可以改变元素的默认行为 
+
+2.CSS的基本语法是怎样的
+先写选择器，再写属性和属性值
+例如：p{color:red}
+p:selector  color:Property  red:Property value
+3.CSS选择器是什么概念，简单选择器和属性选择器是什么
+他告诉浏览器选择什么html元素以将规则内的css属性应用于他们。
+简单选择器分为好几种 类选择器：.box{ } ID选择器：#unique{} 
+属性选择器：a[title]{} 或者a[href="https://example.com"]
+伪类选择器：为元素的某些状态设置格式。
+
+
+4.文本样式都有哪些相关属性，对应哪些值
+color 颜色
+font-size 字体大小 单位有px:像素单位 em :1em当前元素的父元素上设置的字体大小 rem：1rem当前元素的根元素上设置的字体大小
+font-weight 设置文字的粗体大小
+font-color 字体颜色
+font-family：字体的种类
+font-style: 打开或者关闭文本斜体
+text-transform:允许设置要转换的字体
+text-decoration;设置取消字体上的文本装饰
+text-shadow: 文字阴影
+text-align:文本对齐
+line-height：行高
